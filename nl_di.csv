@@ -4335,7 +4335,6 @@ Used,Gebruikt
 available,Beschikbaar
 "Refunded to Store Credit","Teruggestort naar Winkeltegoed"
 "Store Credit update","Winkeltegoed Update"
-"%name,","%naam,"
 "We have updated your <a href=""%store_url"">%store_name</a> account and you have credit that you can use for future purchases.","We hebben je <a href=""%store_url"">%store_name</a> account gewijzigd en Je hebt krediet dat je kunt gebruiken voor je volgende aankopen."
 "Your Store Credit balance is now %balance.","Je winkel kredit saldo is nu %balance."
 "Store credit",Winkeltegoed
@@ -5139,9 +5138,11 @@ Station,Status
 "FedEx 25kg Box","FedEx 25kg doos"
 "Your Packaging","Je verpakking"
 "Not Required","Niet verplicht"
+Adult,Volwassenen
 "Invalid response from carrier","Ongeldige reactie van vervoerder"
 "No available tracking items","Geen tracking-items beschikbaar"
 "For some reason we can't retrieve tracking info right now.","Om een of andere reden kunnen we nu geen tracking info ophalen."
+status,Status
 "Empty response","Leeg antwoord"
 "Account ID",Klant-ID
 "Please make sure to use only digits here. No dashes are allowed.","Gebruik alleen cijfers. Streepjes zijn niet toegestaan."
@@ -5151,6 +5152,8 @@ Packaging,Verpakking
 Dropoff,Dropshipment
 "Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","Maximum pakketgewicht (Vraag je transportbedrijf naar het maximaal toegestane pakketgewicht)"
 "Residential Delivery","Particulier adres"
+"The field is applicable if the Smart Post method is selected.","Het veld is van toepassing als de Smart Post methode is geselecteerd."
+"Expected Delivery:","Verwachte levering:"
 "Gift Card Information","Cadeau kaartinformatie"
 Virtual,Virtuele
 Physical,Fysiek
@@ -5707,6 +5710,7 @@ Creative,Creatieve
 "Export Settings","Export Instellingen"
 "Entity Type","Eenheid Type"
 "Export File Format","Export bestandsformaat"
+"Fields Enclosure","Velden afbakening"
 "We can't filter an attribute with no attribute options.","Wij kunnen een attribuut zonder attribuut opties niet filteren."
 "Fixed Price: From","Vaste prijs: vanaf"
 Filter,Filteren
@@ -5720,6 +5724,7 @@ Filter,Filteren
 "Please specify number of errors to halt import process","Geef het aantal errors wanneer het import proces wordt gestopt op"
 "Field separator",Veldscheidingsteken
 "Multiple value separator","Meerdere waarde scheidingsteken"
+"Fields enclosure","Velden afbakening"
 "File to Import","Te importeren bestand"
 "Select File to Import","Selecteer bestanden om te importeren"
 "Images File Directory","Foto's Bestanden Folder"
@@ -6113,7 +6118,11 @@ Invitation,Uitnodiging
 "Display Product Count","Toon aantal producten"
 "Price Navigation Step Calculation","Prijsweergave (stappen)"
 "Default Price Navigation Step","Stappen (10/20/30/ etc...)"
+"Maximum Number of Price Intervals","Maximaal aantal prijsintervallen"
+"Maximum number of price intervals is 100","Maximaal aantal prijsintervallen is 100"
 "Display Price Interval as One Price","Toon prijs-stap als één prijs"
+"This setting will be applied when all prices in the specific price interval are equal.","Deze instelling wordt toegepast wanneer alle prijzen in het specifieke prijsinterval gelijk zijn."
+"Interval Division Limit","Interval deellimiet"
 "Please specify the number of products, that will not be divided into subintervals.","Geef het aantal producten op, welke niet in deelintervallen verdeeld zullen worden."
 "Position of attribute in layered navigation block","Positie van attribuut in gelaagde-navigatieblok"
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price","Kan alleen gebruikt worden met catalogusinvoertype Ja/Nee, Dropdown, Multiple select en Prijs"
@@ -6125,6 +6134,8 @@ Invitation,Uitnodiging
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price.","Kan alleen gebruikt worden met catalogusinvoertype Ja/Nee, Dropdown, Multiple select en Prijs."
 "Can be used only with catalog input type Yes/No (Boolean), Dropdown, Multiple Select and Price.","Kan alleen gebruikt worden met catalogusinvoertype Ja/Nee (Boolean), Dropdown, Multiple select en Prijs."
 "Admin Actions Log Archive","Admin Actief Logboek"
+"Log Entry #%1","Log entry #%1"
+"Log Entry Details","Log entry details"
 "Source Data",Brongegevens
 "Value Before Change","Waarde voor wijzigen"
 "Value After Change","Waarde na wijzigen"
@@ -6338,6 +6349,7 @@ Wishlist,Verlanglijst
 "Product Info",Productinformatie
 "Could not create a wish list.","Kon geen verlanglijst aanmaken."
 "The default wish list can't be deleted.","De standaard verlanglijst kan niet worden verwijderd."
+"Edit wish list","Verlanglijst bewerken"
 "Ship to Multiple Addresses","Verzenden naar meerdere adressen"
 "Billing Information - %1","Factuuradres - %1"
 "Review Order - %1","Controleer bestelling - %1"
